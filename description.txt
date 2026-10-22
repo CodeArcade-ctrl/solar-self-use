@@ -1,0 +1,1 @@
+Calculate solar self-consumption and export from PV and grid-export power sensors locally.
