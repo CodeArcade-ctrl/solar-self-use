@@ -3,17 +3,17 @@
     "step": {
       "user": {
         "title": "Solar Self Use",
-        "description": "A PV power sensor and a grid-export sensor can show how much solar power is used at home versus sent to the grid. This integration standardizes the direction and reports both watts and a self-use percentage."
+        "description": "A PV power sensor and a grid-export sensor can show how much solar power is used at home versus sent to the grid. This integration standardizes the direction and reports both watts and a self-use percentage.",
+        "data": {
+          "pv_power_entity": "PV production power",
+          "export_power_entity": "Grid export power",
+          "export_sign": "Export sensor sign"
+        }
       }
     },
     "abort": {
       "already_configured": "Deze sensorcombinatie is al ingesteld."
     },
-    "error": {},
-    "data": {
-      "pv_power_entity": "PV production power",
-      "export_power_entity": "Grid export power",
-      "export_sign": "Export sensor sign"
-    }
+    "error": {}
   }
 }
