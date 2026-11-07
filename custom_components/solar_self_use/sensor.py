@@ -1,7 +1,7 @@
 """Sensor entities for Solar Self Use."""
 from __future__ import annotations
 from homeassistant.components.sensor import SensorEntity, SensorDeviceClass, SensorStateClass
-from homeassistant.const import UnitOfTemperature, UnitOfTime, UnitOfVolume, UnitOfPower, PERCENTAGE
+from homeassistant.const import UnitOfPower, PERCENTAGE
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from .const import DOMAIN
 
